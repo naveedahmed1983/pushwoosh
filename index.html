@@ -17,8 +17,9 @@
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     
 
-   <script>
-   function initPushwoosh()
+   
+		<script> 
+			function initPushwoosh()
 {
     var pushNotification = window.plugins.pushNotification;
  
@@ -35,7 +36,7 @@
     });
  
     //initialize Pushwoosh with projectid: "GOOGLE_PROJECT_NUMBER", pw_appid : "PUSHWOOSH_APP_ID". This will trigger all pending push notifications on start.
-    pushNotification.onDeviceReady({ projectid: "GOOGLE_PROJECT_NUMBER", pw_appid : "PUSHWOOSH_APP_ID" });
+    pushNotification.onDeviceReady({ projectid: "858974371258", pw_appid : "4203B-23752" });
  
     //register for pushes
     pushNotification.registerDevice(
@@ -54,12 +55,14 @@ function init() {
  
     //rest of the code
 }
-</script>
-    
+
+
+		</script>
+		
 	<title>Plugin Examples</title>
 </head>
 
-<body onload="init();">
+<body onload="init();>
 <div data-role="page" id="page">
 	<div data-role="header">
 	
